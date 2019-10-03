@@ -43,7 +43,7 @@ const getNextQuoteIdx = () => {
 
 setInterval(() => {
   activeQuoteIdx = getNextQuoteIdx()
-}, 7000)
+}, 10000)
 
 </script>
 
