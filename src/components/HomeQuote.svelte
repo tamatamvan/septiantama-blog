@@ -8,6 +8,9 @@
   justify-content: center;
   flex-direction: column;
 }
+h1, p {
+  width: 100%;
+}
 h1 {
   font-size: 2.5em;
   font-style: italic;
@@ -18,9 +21,10 @@ p {
   text-align: center;
   font-size: 1.2em;
   line-height: 1.5;
+  margin-top: 1em;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .home-quote {
     flex: 1;
   }
