@@ -45,6 +45,7 @@
   </main>
 
   <footer>
+    <hr/>
     <span>
       &copy; {new Date().getFullYear()} Septian Tama's Blog.
     </span>
