@@ -13,6 +13,7 @@
 
   .home-down-arrow {
     padding: 1em;
+    cursor: pointer;
   }
 
   @media (min-width: 768px) {
@@ -51,6 +52,12 @@ const getNextQuoteIdx = () => {
   return 0
 }
 
+const scrollToLatest = () => {
+  document.querySelector('.home-latest-articles').scrollIntoView({
+    behavior: 'smooth',
+  })
+}
+
 setInterval(() => {
   activeQuoteIdx = getNextQuoteIdx()
 }, 10000)
@@ -67,7 +74,8 @@ setInterval(() => {
       <HomeQuote {quote} />
     {/if}
   {/each}
-  <div class="home-down-arrow">
+  <div class="home-down-arrow" on:click={scrollToLatest}>
     <DownArrow />
   </div>
+  <div class="home-latest-articles"></div>
 </div>
