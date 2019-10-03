@@ -22,28 +22,9 @@
     line-height: 1.5;
   }
 
-  figure {
-    margin: 0 1em;
-    text-align: center;
-  }
-
-  figcaption {
-    font-size: .8em;
-    font-style: italic;
-  }
-
-  img {
-    width: 100%;
-    max-width: 400px;
-  }
-
   @media (max-width: 1020px) {
     p {
       font-size: 1.2em;
-    }
-
-    img {
-      max-width: 300px;
     }
   }
 
@@ -69,9 +50,4 @@
     <h1>Welcome to your new Sapper Blog</h1>
     <p>Check out the docs on <a href="https://www.github.com/Charca/sapper-blog-template" target="_blank">GitHub</a> to get started.</p>
   </div>
-
-  <figure>
-    <img alt='Person typing on laptop' src='undraw-illustration.svg'>
-    <figcaption>Illustration thanks to <a href="https://undraw.co" target="_blank">Undraw</a></figcaption>
-  </figure>
 </div>
