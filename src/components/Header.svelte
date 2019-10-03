@@ -7,6 +7,11 @@
 
 <style>
   header {
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+  }
+  .header-nav {
     display: flex;
     margin: 0 auto;
     max-width: 1400px;
@@ -16,6 +21,8 @@
 </style>
 
 <header>
-  <Logo />
-  <Nav {segment} />
+  <div class="header-nav">
+    <Logo />
+    <Nav {segment} />
+  </div>
 </header>

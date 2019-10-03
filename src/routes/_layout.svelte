@@ -1,7 +1,7 @@
 <script>
-  import Header from '../components/Header.svelte';
+  import Header from '../components/Header.svelte'
 
-  export let segment;
+  export let segment
 </script>
 
 <style>
@@ -23,6 +23,8 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding-top: 70px;
+    height: 100vh;
   }
 
   footer {
@@ -34,6 +36,12 @@
     padding: 1em 2em;
     text-align: center;
     width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    main {
+      padding-top: 77px;
+    }
   }
 </style>
 
