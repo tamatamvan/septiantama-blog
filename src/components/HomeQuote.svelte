@@ -1,31 +1,40 @@
 <style>
 .home-quote {
-  flex: 1;
+  flex: 0;
+  padding-bottom: 2em;
+  text-align: center;
 }
-
 h1 {
+  font-size: 2.5em;
+  font-style: italic;
   font-weight: 700;
   margin-bottom: 0.5em;
 }
-
 p {
-  font-size: 1.4em;
+  text-align: center;
+  font-size: 1.2em;
   line-height: 1.5;
 }
 
-@media (max-width: 1020px) {
+@media (min-width: 768px) {
+  .home-quote {
+    flex: 1;
+  }
+  h1 {
+    font-size: 3em;
+    text-align: left;
+  }
   p {
-    font-size: 1.2em;
+    text-align: right;
   }
 }
 
-@media (max-width: 800px) {
-  .home-quote {
-    flex: 0;
-    padding-bottom: 2em;
-    text-align: center;
+@media (min-width: 992px) {
+  p {
+    font-size: 1.4em;
   }
 }
+
 .fade-in-bottom {
   animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
