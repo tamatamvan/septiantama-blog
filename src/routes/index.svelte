@@ -25,6 +25,10 @@ const quotes = [
   {
     content: 'I\'m not expecting anything from myself, doesn\'t mean that I\'ve abandoned my dream',
     source: 'Kitai Shitenai Jibun - Hiragana Keyakizaka46'
+  },
+  {
+    content: 'I still make a lot of mistakes, \r\nAnd I still do a lot of silly things.\r\n I\'m sorry',
+    source: 'To My Beloved Dad - Septian Tama'
   }
 ]
 
