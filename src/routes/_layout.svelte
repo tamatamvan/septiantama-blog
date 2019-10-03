@@ -13,16 +13,17 @@
   }
 
   main {
-    flex: 1;
-    position: relative;
-    margin: 0 auto;
-    max-width: 1400px;
-    background-color: white;
-    padding: 1em 2em;
-    box-sizing: border-box;
-    width: 100%;
     display: flex;
     flex-direction: column;
+    flex: 1;
+    position: relative;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 100%;
+    max-width: 1400px;
+    min-height: 100vh;
     padding-top: 70px;
   }
 
