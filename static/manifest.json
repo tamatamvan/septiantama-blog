@@ -1,8 +1,8 @@
 {
 	"background_color": "#ffffff",
-	"theme_color": "#333333",
-	"name": "TODO",
-	"short_name": "TODO",
+	"theme_color": "#5bbee5",
+	"name": "Septian Tama's Blog",
+	"short_name": "Tama's Blog",
 	"display": "minimal-ui",
 	"start_url": "/",
 	"icons": [
