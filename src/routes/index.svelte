@@ -8,46 +8,49 @@
     min-height: 400px;
   }
 
-  .home-copy {
-    flex: 1;
-  }
-
-  h1 {
-    font-weight: 700;
-    margin-bottom: 0.5em;
-  }
-
-  p {
-    font-size: 1.4em;
-    line-height: 1.5;
-  }
-
-  @media (max-width: 1020px) {
-    p {
-      font-size: 1.2em;
-    }
-  }
-
   @media (max-width: 800px) {
     .home-container {
       flex-direction: column;
     }
-
-    .home-copy {
-      flex: 0;
-      padding-bottom: 2em;
-      text-align: center;
-    }
   }
 </style>
 
+<script>
+import HomeQuote from '../components/HomeQuote.svelte'
+const quotes = [
+  {
+    content: 'The shape of shining future is a big egg.',
+    source: 'Yakusoku no Tamago - Hiragana Keyakizaka46'
+  },
+  {
+    content: 'I\'m not expecting anything from myself, doesn\'t mean that I\'ve abandoned my dream',
+    source: 'Kitai Shitenai Jibun - Hiragana Keyakizaka46'
+  }
+]
+
+let activeQuoteIdx = Math.round(Math.random() * (quotes.length - 1))
+
+const getNextQuoteIdx = () => {
+  if (activeQuoteIdx < quotes.length - 1) {
+    return activeQuoteIdx + 1
+  }
+  return 0
+}
+
+setInterval(() => {
+  activeQuoteIdx = getNextQuoteIdx()
+}, 7000)
+
+</script>
+
 <svelte:head>
-  <title>Sapper Blog Template</title>
+  <title>Septian Tama's Blog</title>
 </svelte:head>
 
 <div class="home-container">
-  <div class="home-copy">
-    <h1>Welcome to your new Sapper Blog</h1>
-    <p>Check out the docs on <a href="https://www.github.com/Charca/sapper-blog-template" target="_blank">GitHub</a> to get started.</p>
-  </div>
+  {#each quotes as quote, idx}
+    {#if idx === activeQuoteIdx}
+      <HomeQuote {quote} />
+    {/if}
+  {/each}
 </div>
