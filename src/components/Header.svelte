@@ -10,7 +10,7 @@
     display: flex;
     margin: 0 auto;
     max-width: 1400px;
-    padding: 2em;
+    padding: 1em;
     width: 100%;
   }
 </style>
