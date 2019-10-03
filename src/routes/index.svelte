@@ -1,15 +1,16 @@
 <style>
-  .home-container {
+  .home-intro {
     align-items: center;
     display: flex;
     flex: 1;
     justify-content: center;
     margin: 2em 0;
     min-height: 400px;
+    flex-direction: column;
   }
 
   @media (max-width: 800px) {
-    .home-container {
+    .home-intro {
       flex-direction: column;
     }
   }
@@ -17,6 +18,8 @@
 
 <script>
 import HomeQuote from '../components/HomeQuote.svelte'
+import DownArrow from '../components/DownArrow.svelte'
+
 const quotes = [
   {
     content: 'The shape of shining future is a big egg.',
@@ -51,10 +54,13 @@ setInterval(() => {
   <title>Septian Tama's Blog</title>
 </svelte:head>
 
-<div class="home-container">
+<div class="home-intro">
   {#each quotes as quote, idx}
     {#if idx === activeQuoteIdx}
       <HomeQuote {quote} />
     {/if}
   {/each}
+  <div class="home-down-arrow">
+    <DownArrow />
+  </div>
 </div>
