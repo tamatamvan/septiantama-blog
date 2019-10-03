@@ -30,7 +30,7 @@
 </style>
 
 <svelte:head>
-  <title>Blog</title>
+  <title>Blog Archive | Septian Tama's Blog</title>
 </svelte:head>
 
 <div class="container">
