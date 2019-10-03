@@ -1,17 +1,24 @@
 <style>
   .home-intro {
-    align-items: center;
     display: flex;
     flex: 1;
+    align-items: center;
     justify-content: center;
-    margin: 2em 0;
-    min-height: 400px;
     flex-direction: column;
+    height: 100vh;
+
+    margin-top: -70px;
+    padding-top: 70px;
   }
 
-  @media (max-width: 800px) {
+  .home-down-arrow {
+    padding: 1em;
+  }
+
+  @media (min-width: 768px) {
     .home-intro {
-      flex-direction: column;
+      margin-top: -77px;
+      padding-top: 77px;
     }
   }
 </style>

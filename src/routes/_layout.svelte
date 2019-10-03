@@ -24,7 +24,6 @@
     display: flex;
     flex-direction: column;
     padding-top: 70px;
-    height: 100vh;
   }
 
   footer {
