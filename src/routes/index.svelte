@@ -27,6 +27,14 @@
   }
 </style>
 
+<script context="module">
+  export function preload({ params, query }) {
+    return this.fetch(`blog.json?page=1&limit=5`).then(r => r.json()).then(posts => {
+      return { posts };
+    });
+  }
+</script>
+
 <script>
 import HomeQuote from '../components/HomeQuote.svelte'
 import DownArrow from '../components/DownArrow.svelte'
@@ -64,6 +72,8 @@ const scrollToLatest = () => {
 setInterval(() => {
   activeQuoteIdx = getNextQuoteIdx()
 }, 10000)
+
+export let posts
 
 </script>
 
