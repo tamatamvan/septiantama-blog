@@ -38,8 +38,9 @@ renderer.code = (code, language) => {
 marked.setOptions({ renderer })
 
 const fetchPosts = (page, limit) => {
+  const sliceParams = page ? [0, undefined] : [page, limit]
   const posts = fs.readdirSync(POSTS_DIR)
-  .slice(page - 1, page + limit)
+  .slice(...sliceParams)
   .filter(fileName => /\.md$/.test(fileName))
   .map(fileName => {
     const fileMd = fs.readFileSync(path.join(POSTS_DIR, fileName), 'utf8')

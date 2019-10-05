@@ -1,9 +1,8 @@
 import { fetchPosts } from '../../posts'
 
 export function get(req, res) {
-  const page = req.query.page || 1
-  const limit = req.query.limit || 10
-  const contents = JSON.stringify(fetchPosts(page, limit)
+  const { page, limit } = req.query
+  const contents = JSON.stringify(fetchPosts(page || 1, limit || 10)
     .map(post => {
       return {
         title: post.title,
