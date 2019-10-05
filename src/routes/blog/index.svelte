@@ -7,6 +7,7 @@
 </script>
 
 <script>
+  import PageHeading from '../../components/PageHeading.svelte'
   import PostsList from '../../components/PostsList.svelte'
   export let posts;
 </script>
@@ -16,6 +17,6 @@
 </svelte:head>
 
 <div class="container">
-  <h1>Blog</h1>
+  <PageHeading text="Blog" />
   <PostsList {posts} />
 </div>
