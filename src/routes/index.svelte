@@ -38,6 +38,7 @@
 <script>
 import HomeQuote from '../components/HomeQuote.svelte'
 import DownArrow from '../components/DownArrow.svelte'
+import PostsList from '../components/PostsList.svelte'
 
 const quotes = [
   {
@@ -93,4 +94,5 @@ export let posts
 </div>
 <div class="home-latest-articles">
   <h1 class="home-latest-articles-heading">Latest Stories</h1>
+  <PostsList {posts} />
 </div>
