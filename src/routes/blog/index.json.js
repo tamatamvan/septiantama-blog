@@ -1,4 +1,4 @@
-import { fetchPosts } from '../../posts';
+import { fetchPosts } from '../../posts'
 
 export function get(req, res) {
   const page = req.query.page || 1
@@ -10,12 +10,12 @@ export function get(req, res) {
         slug: post.slug,
         excerpt: post.excerpt,
         printDate: post.printDate,
-      };
-    }));
+      }
+    }))
 
   res.writeHead(200, {
     'Content-Type': 'application/json'
-  });
+  })
 
-  res.end(contents);
+  res.end(contents)
 }
