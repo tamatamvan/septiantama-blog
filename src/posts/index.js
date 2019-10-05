@@ -37,7 +37,9 @@ renderer.code = (code, language) => {
 
 marked.setOptions({ renderer })
 
-const posts = fs.readdirSync(POSTS_DIR)
+const fetchPosts = (page, limit) => {
+  const posts = fs.readdirSync(POSTS_DIR)
+  .slice(page - 1, page + limit)
   .filter(fileName => /\.md$/.test(fileName))
   .map(fileName => {
     const fileMd = fs.readFileSync(path.join(POSTS_DIR, fileName), 'utf8')
@@ -69,13 +71,18 @@ const posts = fs.readdirSync(POSTS_DIR)
     }
   })
 
-posts.sort((a, b) => {
-  const dateA = new Date(a.date)
-  const dateB = new Date(b.date)
+  posts.sort((a, b) => {
+    const dateA = new Date(a.date)
+    const dateB = new Date(b.date)
 
-  if (dateA > dateB) return -1
-  if (dateA < dateB) return 1
-  return 0
-})
+    if (dateA > dateB) return -1
+    if (dateA < dateB) return 1
+    return 0
+  })
 
-export default posts
+  return posts
+}
+
+export { fetchPosts }
+
+export default fetchPosts()
