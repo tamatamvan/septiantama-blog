@@ -10,6 +10,7 @@
     width: 100vw;
     position: fixed;
     z-index: 2;
+    background: #fff;
   }
   .header-nav {
     display: flex;
@@ -18,6 +19,9 @@
     padding: 1em;
     width: 100%;
   }
+  header hr {
+    margin: 0 auto;
+  }
 </style>
 
 <header>
@@ -25,4 +29,5 @@
     <Logo />
     <Nav {segment} />
   </div>
+  <hr/>
 </header>

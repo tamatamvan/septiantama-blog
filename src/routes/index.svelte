@@ -38,8 +38,8 @@ const quotes = [
     source: 'Kitai Shitenai Jibun - Hiragana Keyakizaka46'
   },
   {
-    content: 'I still make a lot of mistakes, \r\nAnd I still do a lot of silly things.\r\n I\'m sorry',
-    source: 'To My Beloved Dad - Septian Tama'
+    content: 'It doesn\'t exists, cage of your imagination',
+    source: 'Cage - Hinatazaka46'
   }
 ]
 
