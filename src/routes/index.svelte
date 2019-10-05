@@ -15,6 +15,9 @@
     padding: 1em;
     cursor: pointer;
   }
+  .home-latest-articles-heading {
+    font-size: 2em;
+  }
 
   @media (min-width: 768px) {
     .home-intro {
@@ -77,5 +80,7 @@ setInterval(() => {
   <div class="home-down-arrow" on:click={scrollToLatest}>
     <DownArrow />
   </div>
-  <div class="home-latest-articles"></div>
+</div>
+<div class="home-latest-articles">
+  <h1 class="home-latest-articles-heading">Latest Stories</h1>
 </div>
