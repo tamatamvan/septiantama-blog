@@ -53,7 +53,7 @@ const posts = fs.readdirSync(POSTS_DIR)
       content = splittedContent[1]
     }
 
-    const html = marked(content)
+    const html = marked(content).replace(/^\t{3}/gm, '')
     const readingStats = readingTime(content)
     const printReadingTime = readingStats.text
     const printDate = formatDate(new Date(date), 'MMMM D, YYYY')
@@ -76,10 +76,6 @@ posts.sort((a, b) => {
   if (dateA > dateB) return -1
   if (dateA < dateB) return 1
   return 0
-})
-
-posts.forEach(post => {
-  post.html = post.html.replace(/^\t{3}/gm, '')
 })
 
 export default posts
