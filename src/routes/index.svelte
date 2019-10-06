@@ -92,7 +92,7 @@ export let posts
     <DownArrow />
   </div>
 </div>
-<div class="home-latest-articles">
+<div class="container home-latest-articles">
   <h1 class="home-latest-articles-heading">Latest Stories</h1>
   <PostsList {posts} />
 </div>
