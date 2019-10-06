@@ -1,10 +1,11 @@
 <script context="module">
-  export function preload({ params, query }) {
-    return this.fetch(`blog.json?page=1&limit=1`)
-      .then(r => r.json())
-      .then(posts => {
-        return { posts };
-      });
+  export async function preload({ params, query }) {
+    const res = await this.fetch(`blog.json?page=1&limit=10`)
+    const posts = await res.json()
+    return ({
+      posts,
+      isLastPage: posts.length < 10
+    })
   }
 </script>
 
@@ -14,26 +15,40 @@
   import PostsList from '../../components/PostsList.svelte'
   import LoadingIndicator from '../../components/LoadingIndicator.svelte'
 
+  export let posts
+  export let isLastPage
+
   let isLoading = false
-  let isLastPage = false
   let currentPage = 1
+
+  // const checkIfLastPage = async () => {
+  //   const resNextPage = await fetch(`/blog.json?page=${currentPage + 1}&limit=10`)
+  //   const nextPageCount = await resNextPage.json()
+  //   isLastPage = nextPageCount.length === 0
+  // }
 
   const loadMore = async () => {
     isLoading = true
     currentPage++
-    const fetchedPosts = await fetch(`/blog.json?page=${currentPage}&limit=10`)
-    const fetchedPostsJson = await fetchedPosts.json()
-    if (fetchedPostsJson.length) {
-      posts = [...posts, ...fetchedPostsJson]
+    const res = await fetch(`/blog.json?page=${currentPage}&limit=10`)
+    const fetchedPosts = await res.json()
+    const fetchedPostsCount = fetchedPosts.length
+    if (fetchedPostsCount) {
+      posts = [...posts, ...fetchedPosts]
       isLoading = false
+
+      if(fetchedPostsCount < 10) {
+        isLastPage = true
+      } 
+      // else {
+      //   checkIfLastPage()
+      // }
     } else {
       isLastPage = true
       isLoading = false
       currentPage--
     }
   }
-
-  export let posts;
 </script>
 
 <style>
