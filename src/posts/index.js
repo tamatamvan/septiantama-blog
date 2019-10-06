@@ -38,9 +38,11 @@ renderer.code = (code, language) => {
 marked.setOptions({ renderer })
 
 const fetchPosts = (page, limit) => {
-  const sliceParams = page ? [0, undefined] : [page, limit]
+  const limitNum = limit || 10
+  const firstIdx = page && (page - 1) * limitNum
+  const lastIdx = page && (page * limitNum) - 1
+
   const posts = fs.readdirSync(POSTS_DIR)
-  .slice(...sliceParams)
   .filter(fileName => /\.md$/.test(fileName))
   .map(fileName => {
     const fileMd = fs.readFileSync(path.join(POSTS_DIR, fileName), 'utf8')
@@ -71,14 +73,19 @@ const fetchPosts = (page, limit) => {
       printReadingTime,
     }
   })
-
-  posts.sort((a, b) => {
+  .sort((a, b) => {
     const dateA = new Date(a.date)
     const dateB = new Date(b.date)
 
     if (dateA > dateB) return -1
     if (dateA < dateB) return 1
     return 0
+  })
+  .filter((file, idx) => {
+    if (page) {
+      return idx >= firstIdx && idx <=lastIdx
+    }
+    return file
   })
 
   return posts
