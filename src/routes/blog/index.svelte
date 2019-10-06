@@ -21,7 +21,7 @@
   const loadMore = async () => {
     isLoading = true
     currentPage++
-    const fetchedPosts = await fetch(`/blog.json?page=${currentPage}&limit=1`)
+    const fetchedPosts = await fetch(`/blog.json?page=${currentPage}&limit=10`)
     const fetchedPostsJson = await fetchedPosts.json()
     if (fetchedPostsJson.length) {
       posts = [...posts, ...fetchedPostsJson]
