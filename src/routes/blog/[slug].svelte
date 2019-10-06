@@ -14,7 +14,7 @@
 </script>
 
 <script>
-  import Bio from '../../components/Bio.svelte'
+  // import Bio from '../../components/Bio.svelte'
   export let post
 </script>
 
@@ -54,5 +54,5 @@
     {@html post.html}
   </article>
   <hr />
-  <Bio />
+  <!-- <Bio /> -->
 </div>
