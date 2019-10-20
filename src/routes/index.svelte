@@ -16,7 +16,11 @@
     cursor: pointer;
     margin-top: auto;
   }
+  .home-latest-articles {
+    padding-top: 70px;
+  }
   .home-latest-articles-heading {
+    margin-top: 1em;
     font-size: 2em;
   }
 
