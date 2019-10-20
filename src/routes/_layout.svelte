@@ -45,6 +45,10 @@
   }
 </style>
 
+<svelte:head>
+  <meta name="author" content="Septian A Tama">
+</svelte:head>
+
 <div class="layout">
   <Header {segment}/>
 
