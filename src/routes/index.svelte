@@ -14,6 +14,7 @@
   .home-down-arrow {
     padding: 1em;
     cursor: pointer;
+    margin-top: auto;
   }
   .home-latest-articles-heading {
     font-size: 2em;
