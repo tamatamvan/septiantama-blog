@@ -14,7 +14,7 @@
 </script>
 
 <script>
-  // import Bio from '../../components/Bio.svelte'
+  import Bio from '../../components/Bio.svelte'
   export let post
 </script>
 
@@ -42,6 +42,7 @@
 
 <svelte:head>
   <title>{post.title}</title>
+  <meta name="description" content={post.excerpt}>
 </svelte:head>
 
 <header>
@@ -54,5 +55,5 @@
     {@html post.html}
   </article>
   <hr />
-  <!-- <Bio /> -->
+  <Bio />
 </div>

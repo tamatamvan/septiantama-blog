@@ -19,11 +19,10 @@
 </style>
 
 <div>
-  <img src="profile-pic.png" alt="Maxi Ferreira">
+  <img src="profpic.jpg" alt="Maxi Ferreira">
   <p>
-    Hi, I'm <strong>Maxi</strong>. I'm a software engineer and data scientist from Córdoba, Argentina.
-    You can follow me on <a href="https://www.twitter.com/Charca" target="_blank">Twitter</a>,
-    see some of my work on <a href="https://www.github.com/Charca" target="_blank">GitHub</a>,
-    or read more about me on <a href="https://www.maxiferreira.com" target="_blank">my website</a>.
+    Hi, I'm <strong>Tama</strong>. I'm just an ordinary human being that currently working as a Web Developer
+    at a company called <a href="https://www.quipper.com/" target="_blank" rel="noreferer">Quipper.</a>
+    Beside tech, I'm also interested in many other things like education, literature, and economy.
   </p>
 </div>
