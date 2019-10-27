@@ -29,10 +29,10 @@ Previously, I also chatted with several people, sharing the idea of me starting 
 
 Some of them also asked me, why not using any platform like Medium? Well, Medium is great. With its huge pool of community and audiences, Medium can be a great option.  It may be a good place to get more coverage in a shorter period. But the thing is, Medium is a platform that is run by people as a business. I don't have any control over it, and that makes me feel uneasy in case something happened to it. Also, the fact that nowadays most articles there are staying behind their paywall kinda pissed me off. I really miss the days when I read a bunch of articles there without paywall popping up and ask me to pay some bucks.
 
-So, this blog will be more like my personal space. A place where I can emphasize myself, where I can share anything I want, and speak the things I really care about to the world. I hope that I will be able to produce content for this blog consistently, and this blog will stay alive for a really long period.
+So, this blog will be more like my personal space. A place for my own self retrospective where I can emphasize myself, where I can share anything I want, and speak the things I really care about to the world. I hope that I will be able to produce content for this blog consistently, and this blog will stay alive for a really long period.
 
-Ah, I almost forgot about the language. Yeah, I will write in English. I consider that writing in English would enable me to reach broader audiences, and I really wanna improve my written English. In the future, I may also write in Bahasa. Still, my main focus is to write in English.
+Ah, I almost forgot about the language. Yeah, I will write in English.  I consider that writing in English would enable me to reach broader audiences, and I really want to improve my written English.  In the future, I may also write in Bahasa. Still, my main focus is to write in English.
 
-Well, I think this is enough for an intro article. I am very grateful that you're reading this till the very end. I hope that everything I write in the future will give you and everyone who read them shear of light about the matters discussed.
+Well, I think this is enough for an intro article. I am very grateful that you're reading this till the very end. Also, it will be good if anyone who reads something from this blog can learn one or two things, I'm not really expecting anything tho.
 
 I wish you a good life, thanks and see ya!
