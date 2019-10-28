@@ -3,7 +3,7 @@
 	"theme_color": "#5bbee5",
 	"name": "Septian Tama's Blog",
 	"short_name": "Tama's Blog",
-	"display": "minimal-ui",
+	"display": "standalone",
 	"start_url": "/",
 	"icons": [
 		{
