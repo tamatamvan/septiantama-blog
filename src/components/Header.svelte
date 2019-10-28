@@ -3,6 +3,22 @@
   import Nav from './Nav.svelte'
 
   export let segment
+
+  let showNav = true
+  let prevScrollPost = 0
+
+  if (typeof window !== 'undefined') {
+    const navbarHeight = document.querySelector('header') &&
+      document.querySelector('header').offsetHeight
+
+    window.addEventListener('scroll', () => {
+      const fixedNavbar = prevScrollPost > window.scrollY
+      if (window.scrollY > navbarHeight) {
+        prevScrollPost = window.scrollY
+        showNav = fixedNavbar
+      }
+    })
+  }
 </script>
 
 <style>
@@ -11,6 +27,11 @@
     position: fixed;
     z-index: 2;
     background: #fff;
+    transform: translateY(0);
+    transition: transform ease .3s;
+  }
+  header.header-hidden {
+    transform: translateY(-100%);
   }
   .header-nav {
     display: flex;
@@ -24,7 +45,7 @@
   }
 </style>
 
-<header>
+<header class={showNav ? '' : 'header-hidden'}>
   <div class="header-nav">
     <Logo />
     <Nav {segment} />
