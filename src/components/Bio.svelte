@@ -19,7 +19,6 @@
 </style>
 
 <div>
-  <img src="profpic.jpg" alt="Maxi Ferreira">
   <p>
     Hi, I'm <strong>Tama</strong>. I'm just an ordinary human being that currently working as a Web Developer
     at a company called <a href="https://www.quipper.com/" target="_blank" rel="noreferer">Quipper.</a>
