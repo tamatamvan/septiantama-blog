@@ -3,6 +3,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    margin: 3em 0 0;
   }
   .container {
     max-width: 1400px;
@@ -25,12 +26,12 @@ import Icon from '../components/icons/Icon.svelte'
 </script> -->
 
 <svelte:head>
-  <title>About</title>
+  <title>About Me | septiantama.id</title>
 </svelte:head>
 
 <div id="about-page">
   <div class="container">
-    <h1>About</h1>
+    <h1>About Me</h1>
     <p>
       Hi! I'm Tama, a fullstack developer with main
       expertise in front-end web development. I really love to learn and

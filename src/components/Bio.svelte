@@ -12,6 +12,6 @@
 <div>
   <p>
     Hi, I'm <strong>Tama</strong>. I'm just an ordinary human being that currently working as a Web Developer.
-    Beside tech, I'm also interested in many other things like education, literature, and economy.
+    Besides tech, I'm also interested in many other things like education, literature, and economy.
   </p>
 </div>
