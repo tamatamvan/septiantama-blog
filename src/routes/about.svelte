@@ -41,10 +41,10 @@ import Icon from '../components/icons/Icon.svelte'
       I enjoy coding 💻, observing people 👀, writing poems ✍🏼, taking pictures of
       beatiful scenery 🌄, and cats 😺.
     </p>
-    <p>
+    <!-- <p>
       Feel free to reach me trough my social media accounts, and email bellow.
       😁
-    </p>
+    </p> -->
     <!-- <div class="socmeds">
       <div class="socmed-item">
         <Icon component="Github"/>
