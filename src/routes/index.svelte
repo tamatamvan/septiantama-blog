@@ -46,10 +46,10 @@ import DownArrow from '../components/DownArrow.svelte'
 import PostsList from '../components/PostsList.svelte'
 
 const quotes = [
-  {
-    content: 'The shape of shining future is a big egg.',
-    source: 'Yakusoku no Tamago - Hiragana Keyakizaka46'
-  },
+//   {
+//     content: 'The shape of shining future is a big egg.',
+//     source: 'Yakusoku no Tamago - Hiragana Keyakizaka46'
+//   },
   {
     content: 'I\'m not expecting anything from myself, doesn\'t mean that I\'ve abandoned my dream',
     source: 'Kitai Shitenai Jibun - Hiragana Keyakizaka46'
