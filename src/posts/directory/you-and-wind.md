@@ -1,5 +1,5 @@
 ---
-title: You and Wind 🗓✍🏼
+title: You and Wind 🎐
 date: "2020-07-03T20:00:00.000Z"
 ---
 
