@@ -1,6 +1,6 @@
 ---
 title: 🌻 in a rainy day 🌦
-date: "2020-02-15T24:00:00.000Z"
+date: '2020-02-15T24:00:00.000Z'
 ---
 
 Like a sunflower in a rainy day.
@@ -22,7 +22,7 @@ It's not a scar that's being left, just an empty space<br/>
 No tears, no smile, cause to whom I suppose to give them?<br/>
 
 Even things I thought were part of my life<br/>
-Is no longer brings me joy<br/>
+no longer brings me joy<br/>
 Trying so hard to find the reason to wake up<br/>
 At the same time, it's so hard to close my eyes<br/>
 

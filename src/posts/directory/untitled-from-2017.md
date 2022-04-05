@@ -1,9 +1,9 @@
 ---
 title: Untitled, from 2017 🗓✍🏼
-date: "2020-01-25T03:22:00.000Z"
+date: '2020-01-25T03:22:00.000Z'
 ---
 
-Oftentimes I feel lost. I wish I still have him by my side, so I can tell him how I was doing today, and maybe ask for some wisdom. I just miss him. I always do. I haven't been able to move on. I know I never will. 
+Oftentimes I feel lost. I wish I still have him by my side, so I can tell him how I was doing today, and maybe ask for some wisdom. I just miss him. I always do. I haven't been able to move on. I know I never will.
 
 <!-- more -->
 
@@ -19,9 +19,9 @@ I have to be honest, it left a deep wound on me. When finally I can start to see
 
 I remember for sure that I was trying to move on that year. It was hard for me, to lose someone who often guides me. I was trying to live on my own, and I understood that I have to. I kept moving forward while carrying all the values that had been taught to me.
 
-Oftentimes I feel lost. I wish I still have him by my side, so I can tell him how I was doing today, and maybe ask for some wisdom. I just miss him. I always do. Yes, up to this point, I haven't been able to move on. I know I never will. 
+Oftentimes I feel lost. I wish I still have him by my side, so I can tell him how I was doing today, and maybe ask for some wisdom. I just miss him. I always do. Yes, up to this point, I haven't been able to move on. I know I never will.
 
-And I believe that's how I feel when I wrote this untitled poem from 2017. It's in Bahasa Indonesia but I'll write the translation below it. 
+And I believe that's how I feel when I wrote this untitled poem from 2017. It's in Bahasa Indonesia but I'll write the translation below it.
 
 <hr/>
 
@@ -57,9 +57,8 @@ English translation:
 
 <p>
 <i>In a quiet night</i><br/>
-<i>I'm silent</i><br/>
-<i>Feel the longing held in the heart</i><br/>
-<i>and the drowned love</i><br/>
+<i>In a deep silence</i><br/>
+<i>Drowned by the love and longing held in the heart</i><br/>
 </p>
 
 <p>
@@ -81,7 +80,7 @@ English translation:
 
 <hr/>
 
-And that's it! The untitled poem I wrote from 2017. It's short, but it's interesting to me since I don't really remember the moment I wrote this. When I read it, I try to recall and understand my past self. The result is what I wrote above. The memories and feelings about my father. 
+And that's it! The untitled poem I wrote from 2017. It's short, but it's interesting to me since I don't really remember the moment I wrote this. When I read it, I try to recall and understand my past self. The result is what I wrote above. The memories and feelings about my father.
 
 The interpretation of the poem may different from each person, and I'm okay with that. Also, it may not a really good poem, but writing something like this is my way to release my inner emotions. It's the things I do to put down some burden in my life, and I always love it.
 
